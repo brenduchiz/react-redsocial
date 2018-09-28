@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+    #titule {
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 30px;
+    }
+
+    #titule2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 20px;
+    }
+
+    .navHome{
+        background-color: #CECECE;
+    }
+
+    #card-social{
+        max-width: 50rem;
+       
+        margin-left: 10px;
+        width: auto; 
+        margin: 30px auto;
+    }
