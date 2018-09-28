@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import firebaseApp from './config/firebase';
 import Login from './components/login';
 import Home from './components/home';
-import './App.css';
+import './App.css'; 
 
 
 class App extends Component {

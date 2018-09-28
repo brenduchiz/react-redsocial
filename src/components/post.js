@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faPencilAlt } from '@fortawesome/free-solid-svg-icons'
 import firebase from 'firebase';
 import Postdata from './dataPost' 
+library.add(faPencilAlt)
+
+
 const firestore = firebase.firestore();
 const settings = {/* your settings... */ timestampsInSnapshots: true};
 firestore.settings(settings);
@@ -67,35 +73,26 @@ console.log(this.state.post);
  }
 
 
-
-
- 
-
-
-
-
-
-
         
     render(){
 return(
 
 <div className="container-fluid">
-<div className="card border-light mb-3"  id="card-social">
+<div className="card border mb-3"  id="card-social">
 <div className="card-header" id="toPostName"></div>
 <div className="card-body">
-<div className="form-group">
-<label >Escribe aqui tu comentario</label>
+<div className="form-group text-left">
+<label><b className="mr-1">{this.props.user.displayName}</b>escribe aqui tu comentario</label>
 <textarea value={this.state.post} onChange={this.handleChangePost} name='post' className="form-control" id="commentary" rows="1"></textarea>
 
-<button  onClick={this.buttonPost} type="button" className="btn btn-raised btn-secondary btn-sm" id="button-topost">
-  Publicar  <i className="fas fa-arrow-circle-right"></i></button>  
+<button  onClick={this.buttonPost} type="button" className="btn btn-raised btn-secondary btn-sm mt-3" id="button-topost">
+  Publicar  <FontAwesomeIcon icon="pencil-alt" /></button>  
  
-  <Postdata/>
 </div>
 </div>
 </div>
 
+  <Postdata/>
 </div>     
 
 );
