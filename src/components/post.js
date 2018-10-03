@@ -1,3 +1,4 @@
+import imageUser from '../img/nousuario.png';
 import React, { Component } from 'react';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -42,9 +43,12 @@ this.state={
         let image;
         if (this.props.user.providerData['0'].photoURL !== null) {
           image = this.props.user.providerData['0'].photoURL;
+          document.getElementById("commentary").value="";
         } else {
-          image = '../img/nousuario.png';
+          image = imageUser;
+          document.getElementById("commentary").value="";
         }
+
 
 console.log(this.state.post);
 
@@ -83,7 +87,7 @@ return(
 <div className="card-body">
 <div className="form-group text-left">
 <label><b className="mr-1">{this.props.user.displayName}</b>escribe aqui tu comentario</label>
-<textarea value={this.state.post} onChange={this.handleChangePost} name='post' className="form-control" id="commentary" rows="1"></textarea>
+<textarea value={this.state.post} onChange={this.handleChangePost} name='post' className="form-control" id="commentary" />
 
 <button  onClick={this.buttonPost} type="button" className="btn btn-raised btn-secondary btn-sm mt-3" id="button-topost">
   Publicar  <FontAwesomeIcon icon="pencil-alt" /></button>  

@@ -127,14 +127,14 @@ return(
 
 <div className="card mb-3 mt-5" id="cardPost">
             <div className="card-header text-left">
-            <img  width="30"className="img-fluid z-depth-1 rounded-circle " src={item.photo} alt={item.name} /><span className="ml-2">{item.name}</span>
+            <img  width="30"className="img-fluid z-depth-1 rounded-circle " src={item.photo} alt="no se encuentra imagen" /><span className="ml-2">{item.name}</span>
            </div>  
             
 
  <div className="card-body mb-3">
             <textarea id={item.id} className="form-control text-sm-left" readOnly >{item.post}</textarea>
               <div className="rounded-bottom mdb-c olor lighten-3 text-right pt-3">
-                <ul className="list-unstyled list-inline font-small" >  
+                <ul   className="list-unstyled list-inline font-small" >  
                   <li className="list-inline-item pr-1 grey-text">date</li>
                   <li className="list-inline-item pr-2"><a className="white-text"  id ={"edit" + item.id}  onClick={() => this.editPost(item.id)} ><FontAwesomeIcon icon="user-edit" />Editar</a></li>
                   <li className="list-inline-item pr-2"><a className="white-text" id ='remove{item.id}' onClick={() => this.removePost(item.id)}  ><FontAwesomeIcon icon="trash-alt" />Eliminar</a></li>
