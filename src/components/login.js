@@ -56,7 +56,7 @@ firebase.auth().createUserWithEmailAndPassword(this.state.registryEmail, this.st
 
     
     var user = firebase.auth().currentUser;
-
+//Actualizando nombre de usuario 
     user.updateProfile({
       displayName: this.state.name
       
