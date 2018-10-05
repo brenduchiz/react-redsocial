@@ -142,11 +142,13 @@ Es una red social que busca ser un espacio donde personas jóvenes Sordas se com
 2. Se parte de la comunidad Sorda online.
 
 Instrucciones para desarrolladorxs:
+
 1. Realiza un fork de este repositorio.
 2.️ Clona tu fork a tu computadora.
 3. Instala las dependencias del proyecto con el comando npm install. 
+
+~~~
+$ npm install -g firebase-tools
 ~~~
 
-$ npm install 
-~~~
 Si deseas aportar al proyecto escríbenos un issue o haz un pull request. 
