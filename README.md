@@ -144,7 +144,7 @@ Es una red social que busca ser un espacio donde personas jóvenes Sordas se com
 Instrucciones para desarrolladorxs:
 
 1. Realiza un fork de este repositorio.
-2.️ Clona tu fork a tu computadora.
+2. Clona tu fork a tu computadora.
 3. Instala las dependencias del proyecto con el comando npm install. 
 
 ~~~
