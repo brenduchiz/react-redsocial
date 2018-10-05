@@ -168,7 +168,7 @@ render() {
 
  {/*  Botones Login y Signup*/} 
    <button type="submit" onClick={this.login}  className="btn btn-dark mr-2 mb-3" >Login</button>
-   <button className="btn btn-outline-dark mb-3 ml-3 mr-3" data-toggle="modal" data-target="#exampleModal">
+   <button className="btn btn-outline-dark mb-3 mr-3" data-toggle="modal" data-target="#exampleModal">
             Signup
         </button> 
     
