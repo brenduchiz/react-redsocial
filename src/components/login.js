@@ -130,11 +130,8 @@ render() {
         <div className="Login">
 
 
-
-
-
-<nav className="navbar navbar-expand-lg nav">
-  <a  id="titule" className="navbar-brand" >DEAFRIEND</a>
+<nav className="navbar navbar-expand-lg navbar-light mt-1">
+  <a  id="titule" className="navbar-brand mt-2 mb-3" >DEAFRIEND</a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
@@ -143,8 +140,8 @@ render() {
     <ul className="navbar-nav ">
     
 {/*  Botones LoginGoogle y LoginFacebook*/} 
-<span  onClick={this.loginFacebook}  className="badge badge-pill badge-primary pt-2 mr-2 mb-1 mt-2" >F</span>
-<span onClick={this.loginGoogle}  className="badge badge-pill badge-danger pt-2 mr-2 mb-1 mt-2" >G</span>
+<span  onClick={this.loginFacebook}  className="badge badge-pill badge-primary pt-2 mr-2 mb-3 mt-2 col-sm-1" >F</span>
+<span onClick={this.loginGoogle}  className="badge badge-pill badge-danger pt-2 mr-2 mb-3 mt-2 col-sm-1" >G</span>
 
 {/*  Inputs Email y Password*/}
     <input 
@@ -152,7 +149,7 @@ render() {
             onChange={this.handleChange}
                 type="email"
                 name='email'
-                className="form-control mr-2" 
+                className="form-control mr-2 mb-2" 
                 placeholder="Email"
                 id="inputEmail"
                 />
@@ -164,14 +161,14 @@ render() {
             onChange={this.handleChange}
                 type="password"
                 name='password'
-                className="form-control mr-2" 
+                className="form-control mr-2 mb-2" 
                 placeholder="Password"
                 id="inputPassword"
                 />
 
  {/*  Botones Login y Signup*/} 
-   <button type="submit" onClick={this.login}  className="btn btn-dark mr-2" >Login</button>
-   <button className="btn btn-outline-dark" data-toggle="modal" data-target="#exampleModal">
+   <button type="submit" onClick={this.login}  className="btn btn-dark mr-2 mb-3" >Login</button>
+   <button className="btn btn-outline-dark mb-3 ml-3 mr-3" data-toggle="modal" data-target="#exampleModal">
             Signup
         </button> 
     

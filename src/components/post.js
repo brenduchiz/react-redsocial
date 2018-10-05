@@ -20,6 +20,7 @@ class Post extends Component {
     
     this.handleChangePost = this.handleChangePost.bind(this);
  this.buttonPost = this.buttonPost.bind(this);
+ 
 this.state={
   post:"",
   
@@ -40,6 +41,9 @@ this.state={
 
     buttonPost(){
 
+
+        
+
         let image;
         if (this.props.user.providerData['0'].photoURL !== null) {
           image = this.props.user.providerData['0'].photoURL;
@@ -49,14 +53,18 @@ this.state={
           document.getElementById("commentary").value="";
         }
 
+       
 
-console.log(this.state.post);
+
 
         db.collection("users").add({
             name:this.props.user.displayName,
             post: this.state.post,
             uid: this.props.user.uid,
-            photo: image
+            photo: image,
+            likes: 0
+           
+           
             
         })
         .then((docRef)=> {
@@ -77,6 +85,7 @@ console.log(this.state.post);
  }
 
 
+ 
         
     render(){
 return(

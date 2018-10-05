@@ -2,9 +2,17 @@
 
 #background{
     background-image: url("./img/audio2.png");
+    
+
+    position: relative;
+    
+   
+    padding-top: calc(25rem + 72px);
+    padding-bottom: 17rem;
     background-repeat: no-repeat;
+    background-position: center bottom;
+    background-attachment: scroll;
     background-size: cover;
-    height: 600px;
 }
 
 
