@@ -32,11 +32,11 @@ En la primera de acuerdo a la documentación podemos definir los siguiente:
 
 En un segundo acercamiento al tema se decidió realizar un focus group con 5 estudiantes Sordos de Educación Media Superior, arrojando, en donde se hicieron diversas preguntas como: Qué red social utilizas con mayor frecuencia y porqué?; Qué problemas tienes al usarla?; Qué problemas tienes al interactuar con otras personas ya sean oyentes o sordos?; Cómo te comunicas con tus amigos?; Conoces algún sordo que haya estudiado la universidad?; Si existiera una red social solo para sordos que te gustaría que tuviera o para qué la usarías?
 
-#Ana :girl:
-#Ian:person_with_blond_hair:
-#Hector:man_with_gua_pi_mao:
-#Israel:boy:
-#Jose Armando:man:
+*Ana :girl:
+*Ian:person_with_blond_hair:
+*Hector:man_with_gua_pi_mao:
+*Israel:boy:
+*Jose Armando:man:
 
 
 
@@ -135,7 +135,8 @@ Esperan tener un espacio solo para ellos donde puedan escribir una pequeña semb
 
 # Deafriend 
 
-Es una red social que busca ser un espacio donde personas jóvenes Sordas se comunican entre si y comparten sus diferentes experiencias en el ámbito educativo. Si quieres conocer más de este proyecto ingresa a (https://brenduchiz.github.io/react-redsocial/)
+Es una red social que busca ser un espacio donde personas jóvenes Sordas se comunican entre si y comparten sus diferentes experiencias en el ámbito educativo. Si quieres conocer más de este proyecto ingresa a:
+(https://brenduchiz.github.io/react-redsocial/)
 
 1. Ingresa tus datos para registrarte o bien utiliza alguna de tus redes sociales.
 2. Se parte de la comunidad Sorda online.
@@ -144,5 +145,4 @@ Instrucciones para desarrolladorxs:
 1. Realiza un fork de este repositorio.
 2.️ Clona tu fork a tu computadora.
 3. Instala las dependencias del proyecto con el comando npm install. 
-
 Si deseas aportar al proyecto escríbenos un issue o haz un pull request. 
