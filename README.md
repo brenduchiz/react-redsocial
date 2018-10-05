@@ -145,4 +145,8 @@ Instrucciones para desarrolladorxs:
 1. Realiza un fork de este repositorio.
 2.️ Clona tu fork a tu computadora.
 3. Instala las dependencias del proyecto con el comando npm install. 
+~~~
+
+$ npm install 
+~~~
 Si deseas aportar al proyecto escríbenos un issue o haz un pull request. 
