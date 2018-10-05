@@ -32,11 +32,11 @@ En la primera de acuerdo a la documentación podemos definir los siguiente:
 
 En un segundo acercamiento al tema se decidió realizar un focus group con 5 estudiantes Sordos de Educación Media Superior, arrojando, en donde se hicieron diversas preguntas como: Qué red social utilizas con mayor frecuencia y porqué?; Qué problemas tienes al usarla?; Qué problemas tienes al interactuar con otras personas ya sean oyentes o sordos?; Cómo te comunicas con tus amigos?; Conoces algún sordo que haya estudiado la universidad?; Si existiera una red social solo para sordos que te gustaría que tuviera o para qué la usarías?
 
-![Ana] :girl:
-![Ian]:person_with_blond_hair:
-![Hector]:man_with_gua_pi_mao:
-![Israel]:boy:
-![Jose Armando]:man:
+⋅⋅*Ana :girl:
+⋅⋅*Ian:person_with_blond_hair:
+⋅⋅*Hector:man_with_gua_pi_mao:
+⋅⋅*Israel:boy:
+⋅⋅*Jose Armando:man:
 
 
 
