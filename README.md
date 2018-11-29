@@ -1,6 +1,6 @@
 # Deafriend (Social Network React)
 
-##Red Social - Proceso UX
+#Red Social - Proceso UX
 Las redes sociales son sitios donde un grupo de personas con intereses comunes se comunican e interactuan en torno a un tema.
 Una emprendedora nos ha encargado crear una red social.  Nos da ciertos temas en los que le gustaría invertir:
 
