@@ -151,4 +151,4 @@ Instrucciones para desarrolladorxs:
 $ npm install -g firebase-tools
 ~~~
 
-Si deseas aportar al proyecto escríbenos un issue o haz un pull request. 
+Si deseas aportar al proyecto escríbeme un issue o haz un pull request. 
