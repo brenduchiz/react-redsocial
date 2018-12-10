@@ -1,5 +1,10 @@
 # Deafriend (Social Network React)
 
+![red](https://user-images.githubusercontent.com/27248841/49709326-5cf83900-fbf9-11e8-92e7-c779bef2b813.png)
+
+- User: red-social-administrador@gmail.com
+- Password: 1234567890
+
 Red Social - Proceso UX
 Las redes sociales son sitios donde un grupo de personas con intereses comunes se comunican e interactuan en torno a un tema.
 Una emprendedora nos ha encargado crear una red social.  Nos da ciertos temas en los que le gustaría invertir:
